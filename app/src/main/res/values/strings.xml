@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Gema_Apps</string>
+
+    <string name="konten_1">Penulis: M. Iskandar Rasyid
+                            32 Halaman
+                            Tahun Terbit: 2021  </string>
+
+    <string name="konten_2">Penulis: Dwi Silvira
+                            21 Halaman
+                            Tahun Terbit: 2021  </string>
+
+    <string name="konten_3">Penulis: Rafika Daulay
+                            15 Halaman
+                            Tahun Terbit: 2021  </string>
+
+
+    <string name="konten_4">Tentang : Bumi
+                            Ilmu bumi dan antariksa adalah ilmu yang  mempelajari tentang bumi dan segala  komponen penyusunnya dan
+                            posisinya sebagai salah satu planet atau bagian dari tata surya serta mempelajari benda-benda angkasa yang lainnya.  </string>
+
+
+    <string name="konten_5">Tentang : Roket
+                            Rangka atau badan roket (rocket frame) terbuat dari bahan yang ringan dan kuat seperti titanium dan
+                            aluminium karena rangka berfungsi sebagai pelindung.   </string>
+
+
+</resources>

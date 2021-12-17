@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home_semuabuku"
+    android:orientation="vertical"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Hai, yuk membaca"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/searchicon" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="379dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/kolomsearch"
+        android:hint="Cari buku mu disini"
+        android:paddingLeft="46dp"
+        android:paddingBottom="5dp"
+        android:textSize="15dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/semua_buku"
+                android:fontFamily="@font/poppinsregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginTop="130dp"
+                android:text="Semua buku"/>
+
+            <Button
+                android:id="@+id/populer"
+                android:fontFamily="@font/poppinsregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginTop="130dp"
+                android:text="Pupuler"/>
+
+            <Button
+                android:id="@+id/buku_baru"
+                android:fontFamily="@font/poppinsregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginTop="130dp"
+                android:text="Buku Baru"/>
+
+            <Button
+                android:id="@+id/pengetahuan"
+                android:fontFamily="@font/poppinsregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/black"
+                android:layout_marginTop="130dp"
+                android:text="Pengetahuan"/>
+
+        </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="185dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tahukah Kamu ?"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@drawable/pengetahuan_gambar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:text="@string/konten_4"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Tahukah Kamu ?"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/roket_gambar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:text="@string/konten_5"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="600dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shadow_putih" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/nav_bg"
+            app:itemIconSize="30dp"
+            app:labelVisibilityMode="unlabeled"
+            app:menu="@menu/menu_bottom" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
