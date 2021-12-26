@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GemaGroup8">
         <activity
+            android:name=".ScreenRating"
+            android:exported="true" />
+        <activity
+            android:name=".ScreenSelesaiQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".ScreenEssay"
+            android:exported="true" />
+        <activity
+            android:name=".ScreenMasukProfil"
+            android:exported="true" />
+        <activity
             android:name=".ScreenProfil"
             android:exported="true" />
         <activity

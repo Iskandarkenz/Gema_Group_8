@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_all"
+    tools:context=".ScreenSelesaiQuiz">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Selamat"
+        android:textSize="30dp"
+        android:textColor="#232D37"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="45dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Kamu Telah Selesai Mengerjakan Kuis"
+        android:textSize="16dp"
+        android:textColor="#232D37"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/screen_skor" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/simpan"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Selesai" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="640dp"
+        android:background="@drawable/simpan"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Baca Buku Lain" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/star_box" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Skor Anda"
+        android:textSize="22dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="175dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="#FFFEFE"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/star"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="130dp"/>
+
+</RelativeLayout>
