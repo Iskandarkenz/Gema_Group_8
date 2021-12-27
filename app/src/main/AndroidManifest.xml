@@ -22,6 +22,15 @@
             android:name=".ScreenMasukProfil"
             android:exported="true" />
         <activity
+            android:name=".MyLibraryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MostReadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SearchingActivity"
+            android:exported="true" />
+        <activity
             android:name=".ScreenProfil"
             android:exported="true" />
         <activity
@@ -34,7 +43,7 @@
             android:name=".ScreenProfilSaya"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

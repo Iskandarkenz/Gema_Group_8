@@ -1,16 +1,19 @@
-package com.example.gema_apps;
+package com.example.gemagroup8;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Window;
+import android.content.Intent;
+import android.os.Build;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
 
-public class splash_screen extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

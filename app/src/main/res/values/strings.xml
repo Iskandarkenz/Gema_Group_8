@@ -1,4 +1,66 @@
 <resources>
-    <string name="app_name">GemaApp Gusti</string>
-    <string name="profil_saya">Profil Saya</string>
+    <string name="profil_saya">Profil Saya </string>
+    <string name="deskripsi"/>
+
+
+    <string name="konten_1">Penulis: M. Iskandar Rasyid
+                            32 Halaman
+                            Tahun Terbit: 2021  </string>
+
+    <string name="konten_2">Penulis: Dwi Silvira
+                            21 Halaman
+                            Tahun Terbit: 2021  </string>
+
+    <string name="konten_3">Penulis: Rafika Daulay
+                            15 Halaman
+                            Tahun Terbit: 2021  </string>
+
+
+    <string name="konten_4">Tentang : Bumi
+                            Ilmu bumi dan antariksa adalah ilmu yang  mempelajari tentang bumi dan segala  komponen penyusunnya dan
+                            posisinya sebagai salah satu planet atau bagian dari tata surya serta mempelajari benda-benda angkasa yang lainnya.  </string>
+
+
+    <string name="konten_5">Tentang : Roket
+                            Rangka atau badan roket (rocket frame) terbuat dari bahan yang ringan dan kuat seperti titanium dan
+                            aluminium karena rangka berfungsi sebagai pelindung.   </string>
+
+    <string name="app_name">Gema_Dwi</string>
+    <string name="tentang_gema">
+
+        "Teman-teman mungkin sudah tidak asing lagi dengan bumi, "
+        "bintang, dan ruang angkasa. Bobo punya sedikit cerita nih, "
+        "tentang bumi, bintang, dan ruang angkasa. "
+
+        "Bumi \n\n "
+        "Ceritanya Bobo mulai dari Bumi, ya. "
+        "Planet yang kita tempati ini merupakan salah satu bagian dari tata surya. "
+        "Ada dua benda yang langit yang cukup akrab dengan Bumi, "
+        "yakni Matahari dan Bulan. Di antara mereka bertiga, "
+        "Matahari lah yang punya ukuran paling besar. Ukurannya Matahari 900 kali"
+        "lebih besar daripada bulan. Kalau Bumi, ukurannya 4 kali lebih besar daripada bulan."
+        "Meski memiliki ukuran yang besar, Matahari tetap terlihat kecil karena jarak "
+        "antara matahari dengan Bumi adalah 150 juta km. "
+
+        "Bintang \n\n "
+        "Saat malam hari tiba, Bulan dan bintang akan menampakkan dirinya. "
+        "Seperti kita tahu, Bulan bisa besinar, karena cahaya dari Matahari. "
+        "Lalu, bagaimana dengan bintang? Apakah bintang bersinar karena matahari juga? "
+        "Ternyata… bintang memiliki cahayanya sendiri. Jadi, bintang bersinar tanpa bantuan Matahari."
+        "O iya, bicara soal bintang, Bobo baru ingat kalau Matahari juga sebuah bintang. "
+        "Jika dibandingkan dengan bintang lainnya, matahari memiliki jarak paling dekat dengan bumi."
+
+        "Luar Angkasa \n\n "
+        "Matahari, Bulan, bintang, dan Bumi yang kita tempat itu berada di ruang angkasa."
+        "Jika ruang angkasa bisa menampung Matahari, Bulan, bintang, dan Bumi, "
+        "kira-kira… seberapa besar ruang angkasa itu? Ada yang tahu? "
+        "Ruang angkasa adalah sebuah ruangan yang berada di luar atmosfer bumi. "
+        "Luas ruang angkasa itu tidak terbatas, jadi luasnya tidak bisa dihitung dengan angka. "
+        "Karena luasnya yang tak terbatas, tak heran kalau luar angkasa bisa menampung Matahari,"
+        "Bulan, bintang, Bumi, dan benda langit lainnya. Nah, Teman-teman, "
+
+        "itulah cerita tentang Bumi, Bintang, dan Ruang Angkasa."
+
+        "Sumber: Buku Ensiklopedia Pintar Tag : Bintang, Antariksa, Fakta, Bumi"
+    </string>
 </resources>

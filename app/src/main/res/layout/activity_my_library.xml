@@ -12,10 +12,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="11dp"
         android:fontFamily="@font/poppinsbold"
-        android:text="Hai, yuk membaca"
-        android:textColor="@color/white"
+        android:text="Pustaka Saya"
+        android:textColor="@color/black"
         android:textSize="18dp"/>
 
     <ImageView
@@ -40,6 +41,16 @@
         android:paddingBottom="5dp"
         android:textSize="15dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Sedang Dibaca"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -49,49 +60,6 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/btn_semua_buku"
-                android:fontFamily="@font/poppinsregular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:backgroundTint="@color/white"
-                android:textColor="@color/white"
-                android:layout_marginTop="130dp"
-                android:text="Semua buku"/>
-
-            <Button
-                android:id="@+id/btn_populer"
-                android:fontFamily="@font/poppinsregular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:backgroundTint="@color/white"
-                android:textColor="@color/black"
-                android:layout_marginTop="130dp"
-                android:text="Pupuler"/>
-
-            <Button
-                android:id="@+id/btn_buku_baru"
-                android:fontFamily="@font/poppinsregular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:backgroundTint="@color/white"
-                android:textColor="@color/black"
-                android:layout_marginTop="130dp"
-                android:text="Buku Baru"/>
-
-            <Button
-                android:id="@+id/pengetahuan"
-                android:fontFamily="@font/poppinsregular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/white"
-                android:textColor="@color/black"
-                android:layout_marginTop="130dp"
-                android:text="Pengetahuan"/>
-
         </LinearLayout>
 
     </HorizontalScrollView>
@@ -99,7 +67,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="175dp">
+        android:layout_marginTop="145dp">
 
         <GridLayout
             android:layout_width="match_parent"
@@ -109,34 +77,35 @@
             android:alignmentMode="alignMargins"
             android:columnOrderPreserved="false">
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="12dp"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginTop="12dp"
-                    android:layout_marginBottom="12dp"
-                    android:layout_gravity="center"
-                    app:cardElevation="8dp"
-                    app:cardCornerRadius="15dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_gravity="center"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="15dp">
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:padding="5sp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="-2sp">
 
                     <ImageView
+                        android:id="@+id/antariksa"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/malinkundang"/>
+                        android:src="@drawable/anak_kreatif_antariksa"/>
 
-                    </LinearLayout>
+                </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
@@ -161,7 +130,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/danautoba"/>
+                        android:src="@drawable/nabi_muhammad"/>
 
                 </LinearLayout>
 
@@ -194,6 +163,16 @@
 
                 </LinearLayout>
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="210dp"
+                    android:layout_marginLeft="11dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="Cerita Lainnya"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -219,7 +198,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/timunmas"/>
+                        android:src="@drawable/bumiku2"/>
+
 
                 </LinearLayout>
 
@@ -272,12 +252,6 @@
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:padding="5sp">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:src="@drawable/anakkreatif"/>
 
                 </LinearLayout>
 
@@ -341,35 +315,42 @@
 
             </androidx.cardview.widget.CardView>
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="6"
+                android:layout_gravity="center"
+                android:src="@drawable/danau_toba" />
+
 
         </GridLayout>
 
     </ScrollView>
 
-        <RelativeLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="600dp">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/shadow_putih"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shadow_putih"/>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="40dp"
-        android:background="@drawable/nav_bg"
-        app:itemIconSize="30dp"
-        app:labelVisibilityMode="unlabeled"
-        app:menu="@menu/menu_bottom" />
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/botton"
+            app:itemIconSize="25dp"
+            app:itemIconTint="@drawable/item_selector"
+            app:itemRippleColor="@android:color/transparent"
+            app:labelVisibilityMode="unlabeled"
+            app:menu="@menu/item_menu" />
 
-        </RelativeLayout>
+    </RelativeLayout>
 
 
 </RelativeLayout>

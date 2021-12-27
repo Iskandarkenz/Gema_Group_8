@@ -28,7 +28,7 @@
         android:background="@drawable/searchicon" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextSearch"
         android:layout_width="379dp"
         android:layout_height="55dp"
         android:layout_centerHorizontal="true"
@@ -51,46 +51,46 @@
 
             <Button
                 android:id="@+id/semua_buku"
-                android:fontFamily="@font/poppinsregular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
                 android:layout_marginRight="5dp"
                 android:backgroundTint="@color/white"
-                android:textColor="@color/black"
-                android:layout_marginTop="130dp"
-                android:text="Semua buku"/>
+                android:fontFamily="@font/poppinsregular"
+                android:text="Semua buku"
+                android:textColor="@color/black" />
 
             <Button
-                android:id="@+id/populer"
-                android:fontFamily="@font/poppinsregular"
+                android:id="@+id/populer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:backgroundTint="@color/blue"
-                android:textColor="@color/black"
                 android:layout_marginTop="130dp"
-                android:text="Pupuler"/>
-
-            <Button
-                android:id="@+id/buku_baru"
-                android:fontFamily="@font/poppinsregular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:backgroundTint="@color/white"
-                android:textColor="@color/black"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Pupuler"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/buku_baru2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="130dp"
-                android:text="Buku Baru"/>
+                android:layout_marginRight="5dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Buku Baru"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/pengetahuan"
-                android:fontFamily="@font/poppinsregular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/white"
-                android:textColor="@color/black"
                 android:layout_marginTop="130dp"
-                android:text="Pengetahuan"/>
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Pengetahuan"
+                android:textColor="@color/black" />
 
         </LinearLayout>
 
