@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".home_semuabuku"
     android:orientation="vertical"
+    android:background="@drawable/background_all"
     android:layout_marginRight="16dp"
     android:layout_marginLeft="16dp">
 
@@ -13,9 +14,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:fontFamily="@font/poppinsbold"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="Hai, yuk membaca"
-        android:textColor="@color/white"
+        android:textColor="#232D37"
         android:textSize="18dp"/>
 
     <ImageView
@@ -335,7 +337,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/anakcerdas"/>
+                        android:src="@drawable/anakkreatif"/>
 
                 </LinearLayout>
 
