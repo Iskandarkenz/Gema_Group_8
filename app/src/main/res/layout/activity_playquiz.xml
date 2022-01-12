@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FBFEFF"
-    tools:context=".activity_playquiz">
+    tools:context="Quiz.Playquiz">
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -57,7 +57,7 @@
         app:srcCompat="@drawable/play_quiz" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_play_quiz"
         android:layout_width="195dp"
         android:layout_height="53dp"
         android:layout_marginTop="512dp"
@@ -70,4 +70,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/color_button" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

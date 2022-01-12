@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_all"
+    tools:context="Quiz.Quiz">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="412dp"
+        android:layout_height="326dp"
+        android:background="@drawable/rectangle_back"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-14dp">
+
+
+        <ImageButton
+            android:id="@+id/closeButton"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="360dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/close_big"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="221dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="140dp"
+        android:fontFamily="@font/poppins"
+        android:text="Buku Pertamaku: Antariksa"
+        android:textColor="#FFFEFE"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:layout_marginBottom="199dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/square_2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="335dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415"
+        android:src="@drawable/square_3" />
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="290dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="400dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Manakah Benda Langit Berikut Yang Memiliki Ukuran Paling Besar?"
+        android:textAlignment="center"
+        android:textColor="#232D37"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_marginTop="350dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/radiobutton"
+            android:drawablePadding="12dp"
+            android:button="@null"
+            android:ems="10"
+            android:text="Bumi"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins"
+            android:textSize="20sp"
+            app:buttonCompat="@null" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/radiobutton"
+            android:drawablePadding="12dp"
+            android:button="@null"
+            android:ems="10"
+            android:text="Bulan"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins"
+            android:textSize="20sp"
+            app:buttonCompat="@null" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/radiobutton"
+            android:drawablePadding="12dp"
+            android:button="@null"
+            android:ems="10"
+            android:text="Bintang"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins"
+            android:textSize="20sp"
+            app:buttonCompat="@null" />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/radiobutton"
+            android:drawablePadding="12dp"
+            android:button="@null"
+            android:ems="10"
+            android:text="Matahari"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins"
+            android:textSize="20sp"
+            app:buttonCompat="@null" />
+
+    </RadioGroup>
+
+
+    <ImageButton
+        android:id="@+id/back_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="22dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/arrow_back"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txtQuestionNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="673dp"
+        android:layout_marginBottom="39dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="1 dari 4"
+        android:textColor="#232D37"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageButton
+        android:id="@+id/next_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="338dp"
+        android:layout_marginTop="651dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/arrow_next_right"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

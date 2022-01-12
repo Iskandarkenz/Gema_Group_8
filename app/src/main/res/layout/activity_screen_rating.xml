@@ -35,29 +35,37 @@
         android:src="@drawable/screen_penilaian"/>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/penilaian"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
         android:text="Kasih Penilaian Dong"
         android:textSize="20dp"
         android:fontFamily="@font/poppinsregular"
-        android:layout_marginTop="390dp"
-        android:layout_marginLeft="100dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="95dp"
         android:textColor="#232D37"/>
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="370dp"
-        android:src="@drawable/star_rating"/>
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/penilaian"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:progressTint="#FEDF16"/>
 
     <Button
+        android:id="@+id/btn_save"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="580dp"
-        android:background="@drawable/simpan"
-        android:fontFamily="@font/poppinsbold"
-        android:text="Simpan" />
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/color_button_2"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Simpan"
+        android:textColor="#FFFEFE"
+        android:textSize="16sp" />
 
 </RelativeLayout>

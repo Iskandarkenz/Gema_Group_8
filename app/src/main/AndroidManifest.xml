@@ -1,56 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gemagroup8">
+    package="com.example.gema">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/GEMA"
+        android:label="GEMA"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Gema_Apps">
+        android:theme="@style/AppTheme">
         <activity
-            android:name=".ScreenRating"
-            android:exported="true" />
-        <activity
-            android:name=".ScreenSelesaiQuiz"
-            android:exported="true" />
-        <activity
-            android:name=".ScreenEssay"
-            android:exported="true" />
-        <activity
-            android:name=".ScreenMasukProfil"
-            android:exported="true" />
-        <activity
-            android:name=".MyLibraryActivity"
-            android:exported="true" />
-        <activity
-            android:name=".MostReadActivity"
-            android:exported="true" />
-        <activity
-            android:name=".SearchingActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ScreenProfil"
-            android:exported="true" />
-        <activity
-            android:name=".ScreenTentangGema"
-            android:exported="true" />
-        <activity
-            android:name=".ScreenTargetBaca"
-            android:exported="true" />
-        <activity
-            android:name=".ScreenProfilSaya"
-            android:exported="true" />
-        <activity
-            android:name=".SplashScreen"
-            android:exported="true">
+            android:name="com.example.gema.SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.gema.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.BuatProfil"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.Searching"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.Home"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.MostPopular"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.MostRead"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.MyLibrary"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.ScreenMasukProfil"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.Profil"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.ScreenProfilSaya"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.ScreenTargetBaca"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.ScreenTentangGema"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.Deskripsi"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.Baca_buku"
+            android:exported="true" />
+        <activity
+            android:name="Quiz.Playquiz"
+            android:exported="true" />
+        <activity
+            android:name="Quiz.Quiz"
+            android:exported="true" />
+        <activity
+            android:name="Quiz.ScreenEssay"
+            android:exported="true" />
+        <activity
+            android:name="Quiz.ScreenSelesaiQuiz"
+            android:exported="true" />
+        <activity
+            android:name="com.example.gema.ScreenRating"
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"

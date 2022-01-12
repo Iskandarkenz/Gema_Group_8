@@ -8,14 +8,12 @@
     android:background="@drawable/background_all"
     tools:context=".SplashScreen">
 
-
     <ImageView
+        android:id="@+id/splash"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:src="@drawable/logogema"
         android:layout_centerInParent="true">
     </ImageView>
-
-
 
 </RelativeLayout>

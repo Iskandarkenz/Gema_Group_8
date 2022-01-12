@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home_semuabuku"
+    tools:context=".MostPopular"
     android:orientation="vertical"
     android:layout_marginRight="16dp"
     android:layout_marginLeft="16dp">
@@ -106,7 +106,7 @@
                     android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:padding="-2sp">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -135,7 +135,7 @@
                     android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:padding="-2sp">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -164,7 +164,7 @@
                     android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:padding="-2sp">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -193,7 +193,7 @@
                     android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:padding="-2sp">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -222,7 +222,7 @@
                     android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:padding="-2sp">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -251,7 +251,7 @@
                     android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:padding="-2sp">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -280,7 +280,7 @@
                     android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:padding="-2sp">
 
                     <ImageView
                         android:layout_width="wrap_content"

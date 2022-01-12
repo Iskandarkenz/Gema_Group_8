@@ -1,8 +1,6 @@
 <resources>
+    <string name="app_name">Gema_Login_Register</string>
     <string name="profil_saya">Profil Saya </string>
-    <string name="deskripsi"/>
-
-
     <string name="konten_1">Penulis: M. Iskandar Rasyid
                             32 Halaman
                             Tahun Terbit: 2021  </string>
@@ -16,51 +14,92 @@
                             Tahun Terbit: 2021  </string>
 
 
-    <string name="konten_4">Tentang : Bumi
-                            Ilmu bumi dan antariksa adalah ilmu yang  mempelajari tentang bumi dan segala  komponen penyusunnya dan
-                            posisinya sebagai salah satu planet atau bagian dari tata surya serta mempelajari benda-benda angkasa yang lainnya.  </string>
+    <string name="konten_4">
+        Tentang : Bumi
+                            Ilmu bumi dan antariksa adalah ilmu yang  mempelajari tentang bumi dan
+        segala  komponen penyusunnya dan
+                            posisinya sebagai salah satu planet atau bagian dari
+        tata surya serta mempelajari benda-benda angkasa yang lainnya.  </string>
 
 
     <string name="konten_5">Tentang : Roket
                             Rangka atau badan roket (rocket frame) terbuat dari bahan yang ringan dan kuat seperti titanium dan
                             aluminium karena rangka berfungsi sebagai pelindung.   </string>
 
-    <string name="app_name">GEMA</string>
-    <string name="GEMA">
+    <string name="TentangKami">
 
-        "Teman-teman mungkin sudah tidak asing lagi dengan bumi, "
-        "bintang, dan ruang angkasa. Bobo punya sedikit cerita nih, "
-        "tentang bumi, bintang, dan ruang angkasa. "
+        Gema adalah sebuah aplikasi mobile yang menjadi media untuk menyediakan beragam jenis
+        buku cerita anak yang dikemas secara menarik dengan
+        fitur-fitur lucu untuk membantu menciptakan lingkungan yang positif dalam hal
+        meningkatkan literasi pada anak. Melalui fitur-fitur yang ada,
+        diharapkan dapat meningkatkan minat baca serta daya analisa pada anak.
+    </string>
 
-        "Bumi \n\n "
-        "Ceritanya Bobo mulai dari Bumi, ya. "
-        "Planet yang kita tempati ini merupakan salah satu bagian dari tata surya. "
-        "Ada dua benda yang langit yang cukup akrab dengan Bumi, "
-        "yakni Matahari dan Bulan. Di antara mereka bertiga, "
-        "Matahari lah yang punya ukuran paling besar. Ukurannya Matahari 900 kali"
-        "lebih besar daripada bulan. Kalau Bumi, ukurannya 4 kali lebih besar daripada bulan."
-        "Meski memiliki ukuran yang besar, Matahari tetap terlihat kecil karena jarak "
-        "antara matahari dengan Bumi adalah 150 juta km. "
+    <string name="KategoriBuku">
+        Kamu dapat memilih untuk membaca buku berdasarkan kategori buku yang tersedia.
+            Berbagai pilihan buku menarik dapat kamu baca di Gema.
+    </string>
 
-        "Bintang \n\n "
-        "Saat malam hari tiba, Bulan dan bintang akan menampakkan dirinya. "
-        "Seperti kita tahu, Bulan bisa besinar, karena cahaya dari Matahari. "
-        "Lalu, bagaimana dengan bintang? Apakah bintang bersinar karena matahari juga? "
-        "Ternyata… bintang memiliki cahayanya sendiri. Jadi, bintang bersinar tanpa bantuan Matahari."
-        "O iya, bicara soal bintang, Bobo baru ingat kalau Matahari juga sebuah bintang. "
-        "Jika dibandingkan dengan bintang lainnya, matahari memiliki jarak paling dekat dengan bumi."
+    <string name="Pustaka">
+        Di pustaka, kamu dapat menyimpan beberapa buku yang ingin kamu baca dikemudian hari.
+            Kamu juga dapat menyimpan dan mengoleksi buku favorite kamu.
+    </string>
 
-        "Luar Angkasa \n\n "
-        "Matahari, Bulan, bintang, dan Bumi yang kita tempat itu berada di ruang angkasa."
-        "Jika ruang angkasa bisa menampung Matahari, Bulan, bintang, dan Bumi, "
-        "kira-kira… seberapa besar ruang angkasa itu? Ada yang tahu? "
-        "Ruang angkasa adalah sebuah ruangan yang berada di luar atmosfer bumi. "
-        "Luas ruang angkasa itu tidak terbatas, jadi luasnya tidak bisa dihitung dengan angka. "
-        "Karena luasnya yang tak terbatas, tak heran kalau luar angkasa bisa menampung Matahari,"
-        "Bulan, bintang, Bumi, dan benda langit lainnya. Nah, Teman-teman, "
+    <string name="Quiz">
+        Di aplikasi Gema ini juga tersedia quiz yang pastinya seru untuk di kerjakan.
+            kamu bisa mengerjakan quiz setelah kamu selesai membaca buku favorite mu.
+            ada juga quiz essai yang dapat meningkatkan daya analisis mu.
+    </string>
 
-        "itulah cerita tentang Bumi, Bintang, dan Ruang Angkasa."
+    <string name="TargetBaca">
+        Kamu bisa menuliskan target buku yang ingin kamu baca dalam seminggu. di fitur target baca ini.
+            jangan lupa untuk hidupkan pengingat harian ya biar kamu tidak terlewat untuk membaca hari ini
+    </string>
 
-        "Sumber: Buku Ensiklopedia Pintar Tag : Bintang, Antariksa, Fakta, Bumi"
+    <string name="Deskripsi">
+        Kamu mungkin sudah tidak asing lagi dengan bumi, bintang dan ruang angkasa.
+            Namun kamu tau tidak bahwa luar angkasa memiliki berbagai
+            fakta menarik yang tidak semua tau. yuk baca bukunya
+    </string>
+
+    <string name="Deskripsi_Bumi">
+        Teman-teman mungkin sudah tidak asing lagi dengan bumi, bintang, dan ruang angkasa.
+        Bobo punya sedikit cerita, nih, tentang bumi, bintang, dan ruang angkasa.
+    </string>
+
+    <string name="Bumi">
+        Ceritanya Bobo mulai dari Bumi, ya. Planet yang kita tempati ini merupakan
+        salah satu bagian dari tata surya. Ada dua benda yang langit yang cukup akrab dengan Bumi,
+        yakni Matahari dan Bulan. Di antara mereka bertiga,
+        Matahari lah yang punya ukuran paling besar.
+        Ukurannya Matahari 900 kali lebih besar daripada bulan.
+        Kalau Bumi, ukurannya 4 kali lebih besar daripada bulan.
+        Meski memiliki ukuran yang besar, Matahari tetap terlihat kecil karena jarak antara
+        matahari dengan Bumi adalah 150 juta km.
+    </string>
+
+        <string name="bintang">
+            Saat malam hari tiba, Bulan dan bintang akan menampakkan dirinya. Seperti kita tahu,
+            Bulan bisa besinar, karena cahaya dari Matahari. Lalu, bagaimana dengan bintang?
+            Apakah bintang bersinar karena matahari juga?
+            Ternyata… bintang memiliki cahayanya sendiri. Jadi, bintang bersinar tanpa bantuan Matahari.
+            O iya, bicara soal bintang, Bobo baru ingat kalau Matahari juga sebuah bintang.
+            Jika dibandingkan dengan bintang lainnya,
+            matahari memiliki jarak paling dekat dengan bumi.
+        </string>
+
+    <string name="luar_angkasa">
+        Matahari, Bulan, bintang, dan Bumi yang kita tempat itu berada di ruang angkasa.
+        Jika ruang angkasa bisa menampung
+        Matahari, Bulan, bintang, dan Bumi, kira-kira…
+        seberapa besar ruang angkasa itu? Ada yang tahu?
+        Ruang angkasa adalah sebuah ruangan yang berada di luar atmosfer bumi.
+        Luas ruang angkasa itu tidak terbatas, jadi luasnya tidak bisa dihitung dengan angka.
+        Karena luasnya yang tak terbatas, tak heran kalau luar angkasa bisa menampung
+        Matahari, Bulan, bintang, Bumi, dan benda langit lainnya.
+        Nah, Teman-teman, itulah cerita tentang Bumi, Bintang, dan Ruang Angkasa.
+        Sumber: Buku Ensiklopedia Pintar
+        Tag : Bintang, Antariksa, Fakta, Bumi
+        -----
     </string>
 </resources>

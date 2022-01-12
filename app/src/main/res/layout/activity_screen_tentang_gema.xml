@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,8 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:orientation="vertical"/>
+        android:orientation="vertical">
 
     <ImageView
         android:id="@+id/back"
@@ -25,39 +24,129 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="135dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="-25dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="Tentang Gema"
         android:textColor="#232D37"
-        android:textSize="16dp">
-
-    </TextView>
+        android:textSize="16dp"/>
 
     <ImageView
         android:layout_width="300dp"
         android:layout_height="250dp"
         android:src="@drawable/tentang_gema"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="40dp"
         android:layout_marginLeft="50dp"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="380dp"
-        android:text="Tentang Kami"
-        android:layout_marginLeft="30dp"
-        android:fontFamily="@font/poppinsbold"
-        android:textSize="16dp"
-        android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="-20dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Tentang Kami"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:textSize="16dp" />
 
-    <TextView
-        android:layout_width="323dp"
-        android:layout_height="224dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="410dp"
-        android:fontFamily="@font/poppinsregular"
-        android:text="Gema adalah sebuah aplikasi mobile yang menjadi media untuk menyediakan beragam jenis buku cerita anak yang dikemas secara menarik dengan fitur-fitur lucu untuk membantu menciptakan lingkungan yang positif dalam hal meningkatkan literasi pada anak. Melalui fitur-fitur yang ada, diharapkan dapat meningkatkan minat baca serta daya analisa pada anak."
-        android:textSize="14dp"
-        android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/TentangKami"
+            android:textColor="#000"
+            android:textSize="12dp" />
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="-20dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Kategori Buku"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/KategoriBuku"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="-20dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Pustaka"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/Pustaka"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="-20dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Quiz"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/Quiz"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="-20dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Target Baca"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/TargetBaca"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+</ScrollView>

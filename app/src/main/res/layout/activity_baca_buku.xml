@@ -1,125 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background_all"
+    tools:context="Baca_buku">
 
-
-
-    <ImageButton
-        android:id="@+id/backBtn"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024"
-        app:srcCompat="@drawable/back" />
+        android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/coverBuku"
-        android:layout_width="240dp"
-        android:layout_height="210dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.234"
-        app:srcCompat="@drawable/buku" />
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ic_baseline_arrow_back" />
 
-    <TextView
-        android:id="@+id/baca"
-        android:layout_width="19dp"
-        android:layout_height="16dp"
-        android:fontFamily="@font/poppins"
-        android:text="60"
-        android:textSize="11dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.397"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.107" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="-25dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Buku Pertamaku: Antariksa"
+            android:textColor="#232D37"
+            android:textSize="16dp"/>
 
-    <TextView
-        android:id="@+id/hal"
-        android:layout_width="6dp"
-        android:layout_height="14dp"
-        android:fontFamily="@font/poppins"
-        android:text="3"
-        android:textSize="11dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.107" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="135dp"
+            app:srcCompat="@drawable/see" />
 
-    <TextView
-        android:id="@+id/rat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins"
-        android:text="3/5"
-        android:textSize="11dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.737"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.105" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="-18dp"/>
 
-    <ImageView
-        android:id="@+id/see"
-        android:layout_width="23dp"
-        android:layout_height="17dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.318"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/see"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="76dp" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="-17dp"
+            app:srcCompat="@drawable/list" />
 
-    <ImageView
-        android:id="@+id/list"
-        android:layout_width="22dp"
-        android:layout_height="18dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/list"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="76dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="-18dp"/>
 
-    <ImageView
-        android:id="@+id/star"
-        android:layout_width="20dp"
-        android:layout_height="18dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.663"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/star"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="75dp" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="-16dp"
+            app:srcCompat="@drawable/u_star" />
 
-    <TextView
-        android:id="@+id/judulBuku2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins_medium"
-        android:text="Buku Pertamaku: Antariksa"
-        android:textColor="#201F1F"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.052" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3/5"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="-18dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:src="@drawable/buku_pertamaku_antariksa"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/Deskripsi_Bumi"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="-20dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Bumi"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/Bumi"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="-20dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Bintang"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/bintang"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="-20dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Luar Angkasa"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/luar_angkasa"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btn_selesai_membaca"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/color_button_2"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Selesai Membaca"
+            android:textSize="14dp"
+            android:textColor="#FFFEFE"/>
+
+    </LinearLayout>
+</ScrollView>

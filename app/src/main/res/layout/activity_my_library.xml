@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home_semuabuku"
+    tools:context=".MyLibrary"
     android:orientation="vertical"
     android:layout_marginRight="16dp"
     android:layout_marginLeft="16dp">
@@ -67,70 +67,72 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="145dp">
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="75dp">
 
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:rowCount="4"
-            android:columnCount="2"
             android:alignmentMode="alignMargins"
-            android:columnOrderPreserved="false">
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/antariksa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="12dp"
+                android:layout_gravity="center"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
                 android:layout_marginBottom="12dp"
-                android:layout_gravity="center"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="15dp">
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
+                    android:orientation="vertical"
                     android:padding="-2sp">
 
                     <ImageView
-                        android:id="@+id/antariksa"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/anak_kreatif_antariksa"/>
+                        android:src="@drawable/anak_kreatif_antariksa" />
 
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="12dp"
+                android:layout_gravity="center"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
                 android:layout_marginBottom="12dp"
-                android:layout_gravity="center"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="15dp">
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:orientation="vertical"
+                    android:padding="-2sp">
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/nabi_muhammad"/>
+                        android:src="@drawable/nabi_muhammad" />
 
                 </LinearLayout>
 
@@ -139,66 +141,64 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="12dp"
+                android:layout_gravity="center"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
                 android:layout_marginBottom="12dp"
-                android:layout_gravity="center"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="15dp">
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:orientation="vertical"
+                    android:padding="-2sp">
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/cerdasperkalian"/>
+                        android:src="@drawable/cerdasperkalian" />
 
                 </LinearLayout>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="210dp"
-                    android:layout_marginLeft="11dp"
-                    android:fontFamily="@font/poppinsbold"
-                    android:text="Cerita Lainnya"
-                    android:textColor="@color/black"
-                    android:textSize="18dp"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="12dp"
+                android:layout_gravity="center"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
                 android:layout_marginBottom="12dp"
-                android:layout_gravity="center"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="15dp">
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:orientation="vertical"
+                    android:padding="-2sp">
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/bumiku2"/>
+                        android:src="@drawable/bumiku2" />
 
 
                 </LinearLayout>
@@ -208,27 +208,27 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="12dp"
+                android:layout_gravity="center"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
                 android:layout_marginBottom="12dp"
-                android:layout_gravity="center"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="15dp">
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:orientation="vertical"
+                    android:padding="-2sp">
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/mengtumbuhan"/>
+                        android:src="@drawable/mengtumbuhan" />
 
                 </LinearLayout>
 
@@ -237,21 +237,28 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="12dp"
+                android:layout_gravity="center"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
                 android:layout_marginBottom="12dp"
-                android:layout_gravity="center"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="15dp">
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:orientation="vertical"
+                    android:padding="-2sp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_gravity="center"
+                        android:src="@drawable/danau_toba" />
 
                 </LinearLayout>
 
@@ -260,27 +267,27 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="12dp"
+                android:layout_gravity="center"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
                 android:layout_marginBottom="12dp"
-                android:layout_gravity="center"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="15dp">
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:orientation="vertical"
+                    android:padding="-2sp">
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/antariksa"/>
+                        android:src="@drawable/antariksa" />
 
                 </LinearLayout>
 
@@ -289,39 +296,31 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="12dp"
+                android:layout_gravity="center"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
                 android:layout_marginBottom="12dp"
-                android:layout_gravity="center"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="15dp">
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="5sp">
+                    android:orientation="vertical"
+                    android:padding="-2sp">
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/anak_cerdas"/>
+                        android:src="@drawable/anak_cerdas" />
 
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_row="0"
-                android:layout_gravity="center"
-                android:src="@drawable/danau_toba" />
-
 
         </GridLayout>
 
@@ -339,8 +338,10 @@
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_navigation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="6dp"
             android:layout_alignParentBottom="true"
             android:background="@drawable/botton"
             app:itemIconSize="25dp"
@@ -350,7 +351,6 @@
             app:menu="@menu/item_menu" />
 
     </RelativeLayout>
-
 
 </RelativeLayout>
 
