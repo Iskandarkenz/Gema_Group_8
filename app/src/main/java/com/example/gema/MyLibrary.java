@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.example.gema.Profil.BuatProfil;
+import com.example.gema.Profil.Profil;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MyLibrary extends AppCompatActivity implements View.OnClickListener {
@@ -32,12 +34,12 @@ public class MyLibrary extends AppCompatActivity implements View.OnClickListener
 
         switch (v.getId()) {
             case R.id.antariksa:
-                i = new Intent(this, Deskripsi.class);
+                i = new Intent(this, DeskripsiAntariksa.class);
                 startActivity(i);
                 break;
 
             case R.id.card2:
-                i = new Intent(this, Baca_buku.class);
+                i = new Intent(this, BacaBukuAntariksa.class);
                 startActivity(i);
                 break;
 
@@ -62,12 +64,12 @@ public class MyLibrary extends AppCompatActivity implements View.OnClickListener
                         return true;
 
                     case R.id.profil:
-                        startActivity(new Intent(getApplicationContext(), Profil.class));
+                        startActivity(new Intent(getApplicationContext(), BuatProfil.class));
                         overridePendingTransition(0, 0);
                         return true;
 
                     case R.id.home:
-                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                        startActivity(new Intent(getApplicationContext(), com.example.gema.MainActivity.class));
                         overridePendingTransition(0, 0);
                         return true;
                 }

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_all"
-    tools:context=".Profil">
+    tools:context=".Profil.Profil">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,21 +27,47 @@
                 android:layout_gravity="end"
                 android:src="@drawable/ic_baseline_notifications_active_24" />
 
+            <TextView
+                android:id="@+id/profil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-40dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Profil"
+                android:textColor="#232D37"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
             <ImageView
-                android:layout_width="185dp"
-                android:layout_height="146dp"
+                android:layout_width="200dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="30dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/image_profil" />
 
             <TextView
+                android:id="@+id/saved_ubah_nama"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"
                 android:fontFamily="@font/poppinsbold"
                 android:text="Rafika"
                 android:textColor="#000"
                 android:textSize="20dp"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/saved_ubah_umur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/poppinsregular"
+                android:text="11 tahun"
+                android:textColor="#000"
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/text_view"
@@ -57,13 +83,14 @@
                 android:id="@+id/seek_bar"
                 android:layout_width="match_parent"
                 android:layout_height="39dp"
+                android:layout_marginTop="-15dp"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:backgroundTintMode="screen" />
 
             <GridLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="280dp"
                 android:alignmentMode="alignMargins"
                 android:columnCount="2"
                 android:columnOrderPreserved="false"
@@ -72,7 +99,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/card_profil_saya"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="120dp"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:backgroundTint="#E1F5FB"
@@ -90,16 +117,17 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
+                            android:layout_marginTop="12dp"
                             android:backgroundTint="@color/bluegema"
                             android:src="@drawable/ic_profil" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppinsbold"
+                            android:fontFamily="@font/poppins_medium"
                             android:text="@string/profil_saya"
                             android:textColor="@color/black"
-                            android:textSize="11dp" />
+                            android:textSize="14dp" />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -125,16 +153,17 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
+                            android:layout_marginTop="12dp"
                             android:backgroundTint="#1789C1"
                             android:src="@drawable/ic_target" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppinsbold"
+                            android:fontFamily="@font/poppins_medium"
                             android:text="Target Baca"
                             android:textColor="@color/black"
-                            android:textSize="11dp" />
+                            android:textSize="14dp" />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -160,15 +189,16 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
+                            android:layout_marginTop="12dp"
                             android:src="@drawable/ic_tentang" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppinsbold"
+                            android:fontFamily="@font/poppins_medium"
                             android:text="Tentang Gema"
                             android:textColor="@color/black"
-                            android:textSize="11dp" />
+                            android:textSize="14dp" />
 
                     </LinearLayout>
 
@@ -195,15 +225,17 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
+                            android:layout_marginTop="12dp"
                             android:src="@drawable/ic_baseline_clear_24" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppinsbold"
+                            android:fontFamily="@font/poppins_medium"
                             android:text="Keluar"
                             android:textColor="@color/black"
-                            android:textSize="11dp" />
+                            android:textSize="14dp" />
+
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -219,7 +251,7 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginBottom="15dp"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="20dp"
         android:layout_alignParentBottom="true"
         android:background="@drawable/botton"
         app:itemIconSize="25dp"

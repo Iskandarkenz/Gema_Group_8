@@ -10,7 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.gema.SplashScreen"
+            android:name="Quiz.EssayDanauToba"
+            android:exported="true" />
+        <activity
+            android:name="Quiz.QuizDanauToba"
+            android:exported="true" />
+        <activity
+            android:name="Quiz.PlayquizDanauToba"
+            android:exported="true" />
+        <activity
+            android:name=".BacaBukuDanauToba"
+            android:exported="true" />
+        <activity
+            android:name=".DeskripsiDanauToba"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
@@ -20,67 +35,64 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.gema.MainActivity"
+            android:name=".MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.BuatProfil"
+            android:name=".Profil.BuatProfil"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.Searching"
+            android:name=".SearchingBook"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.Home"
+            android:name=".MostPopular"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.MostPopular"
+            android:name=".MostRead"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.MostRead"
+            android:name=".MyLibrary"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.MyLibrary"
+            android:name=".Profil.ScreenMasukProfil"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.ScreenMasukProfil"
+            android:name=".RegisterActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.RegisterActivity"
+            android:name=".LoginActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.LoginActivity"
+            android:name=".Profil.Profil"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.Profil"
+            android:name=".MenuProfil.ScreenProfilSaya"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.ScreenProfilSaya"
+            android:name=".MenuProfil.ScreenTargetBaca"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.ScreenTargetBaca"
+            android:name=".MenuProfil.ScreenTentangGema"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.ScreenTentangGema"
+            android:name=".DeskripsiAntariksa"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.Deskripsi"
+            android:name=".BacaBukuAntariksa"
             android:exported="true" />
         <activity
-            android:name="com.example.gema.Baca_buku"
+            android:name="Quiz.PlayquizAntariksa"
             android:exported="true" />
         <activity
-            android:name="Quiz.Playquiz"
+            android:name="Quiz.QuizAntariksa"
             android:exported="true" />
         <activity
-            android:name="Quiz.Quiz"
+            android:name="Quiz.EssayAntariksa"
             android:exported="true" />
         <activity
-            android:name="Quiz.ScreenEssay"
+            android:name="Quiz.SelesaiQuizAntariksa"
             android:exported="true" />
         <activity
-            android:name="Quiz.ScreenSelesaiQuiz"
-            android:exported="true" />
-        <activity
-            android:name="com.example.gema.ScreenRating"
+            android:name=".Quiz.ScreenRating"
             android:exported="true" />
 
         <meta-data

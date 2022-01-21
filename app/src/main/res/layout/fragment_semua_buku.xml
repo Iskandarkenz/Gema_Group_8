@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".SemuaBukuFragment"
+    tools:context=".Home.SemuaBukuFragment"
     android:orientation="vertical"
     android:background="@drawable/background_all"
     android:layout_marginRight="18dp"

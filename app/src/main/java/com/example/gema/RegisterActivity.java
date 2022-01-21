@@ -10,6 +10,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.gema.Profil.Profil;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -47,7 +48,7 @@ public class RegisterActivity extends AppCompatActivity {
         // Fungsi
 
         btnLogin.setOnClickListener( v-> {
-            finish();
+            startActivity(new Intent(getApplicationContext(), Profil.class));
         });
 
         btnRegister.setOnClickListener( v->{

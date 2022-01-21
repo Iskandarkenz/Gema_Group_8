@@ -14,17 +14,60 @@
                             Tahun Terbit: 2021  </string>
 
 
-    <string name="konten_4">
-        Tentang : Bumi
-                            Ilmu bumi dan antariksa adalah ilmu yang  mempelajari tentang bumi dan
+    <string name="tentang_bumi">
+        Ilmu bumi dan antariksa adalah ilmu yang  mempelajari tentang bumi dan
         segala  komponen penyusunnya dan
-                            posisinya sebagai salah satu planet atau bagian dari
+        posisinya sebagai salah satu planet atau bagian dari
         tata surya serta mempelajari benda-benda angkasa yang lainnya.  </string>
 
 
-    <string name="konten_5">Tentang : Roket
-                            Rangka atau badan roket (rocket frame) terbuat dari bahan yang ringan dan kuat seperti titanium dan
-                            aluminium karena rangka berfungsi sebagai pelindung.   </string>
+    <string name="tentang_roket">
+        Rangka atau badan roket (rocket frame) terbuat dari bahan yang ringan dan kuat seperti titanium dan
+        aluminium karena rangka berfungsi sebagai pelindung.   </string>
+
+    <string name="tentang_profesi">
+        Penelitian yang dilakukan oleh Nature Publishing Group dengan judul Earliest Evidence of Dental
+        Caries Manipulation in The Late Upper Palaeolithic
+        pada tengkorak berusia 14.000 tahun atau pada zaman paleolitikum akhir
+        menemukan bahwa terdapat satu gigi busuk di rahang yang sengaja digosok dan digores dengan alat.
+        Penemuan tersebut menjadikan dokter gigi sebagai salah satu profesi tertua yang telah terbukti.
+    </string>
+
+    <string name="tentang_hewan">
+        Ikan bisa merasa haus dan harus minum dari laut atau habitatnya.
+        Ikan menggunakan insang dan kulitnya untuk membuang air.
+        Caranya, dengan mengendalikan kadar garam dalam tubuhnya.
+        Tubuh ikan laut kurang asin daripada air laut,
+        sedangkan tubuh ikan air tawar lebih asin daripada air tempat mereka hidup (sungai dan danau).
+        Ikan laut bertulang terus-menerus kehilangan air dari tubuhnya, melalui proses yang disebut osmosis.
+        Di dalam tubuh ikan laut, konsentrasi garamnya lebih rendah dibandingkan lingkungannya.
+        Sehingga ia bisa kehilangan air di dalam tubuhnya.
+        Oleh karena itu, ikan harus menghidrasi tubuh dengan minum.
+    </string>
+
+    <string name="tentang_matahari">
+        Mengapa matahari berubah menjadi jingga saat senja?
+        Dilansir dari National Geographic Indonesia, seorang ahli meteorologi dari
+        Australia bernama Adam Morgan mengatakan bahwa ketika terbit dan terbenam,
+        matahari sedang berada di posisi rendah pada cakrawala. Ketika berada di posisi ini,
+        sinar matahari harus melewati berlapis-lapis atmosfer untuk bisa terlihat oleh mata manusia.
+        Nah, pada saat sinar matahari menabrak lapisan atmosfer, cahayanya akan terhambur.
+        Penghamburan cahaya ini juga dipengaruhi oleh beberapa hal, di antaranya debu, asap,
+        dan partikel lain yang berada di udara. Partikel-partikel inilah yang menimbulkan hamburan cahaya
+        akibat pemantulan yang terjadi ketika sinar matahari mencapai bumi.
+    </string>
+
+    <string name="tentang_astronot">
+        Para astronot dilarang makan makanan berjenis kacang-kacangan sebelum pergi ke luar angkasa.
+        Karena bisa menyebabkan mereka mudah kentut.
+        Dan gas kentut sangat membahayakan bagi baju luar angkasa mereka.
+    </string>
+
+    <string name="tentang_hewan2">
+        Meski tidak bisa berjalan di atas tanah,
+        hummingbird satu-satunya bangsa burung yang bisa terbang sambil mundur.
+    </string>
+
 
     <string name="TentangKami">
 
@@ -78,7 +121,7 @@
         matahari dengan Bumi adalah 150 juta km.
     </string>
 
-        <string name="bintang">
+    <string name="bintang">
             Saat malam hari tiba, Bulan dan bintang akan menampakkan dirinya. Seperti kita tahu,
             Bulan bisa besinar, karena cahaya dari Matahari. Lalu, bagaimana dengan bintang?
             Apakah bintang bersinar karena matahari juga?

@@ -29,8 +29,11 @@
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/drawable/nav_bg.xml" value="0.1111111111111111" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/font/poppins_medium.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_baca_buku.xml" value="0.22" />
-        <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_buat_profil.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_baca_buku_antariksa.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_buat_profil.xml" value="0.22" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_deskripsi.xml" value="0.22" />
+        <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_end_quiz_antariksa.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_essay_danau_toba.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_home.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_home_buku_baru.xml" value="0.12" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_home_pengetahuan.xml" value="0.22" />
@@ -48,7 +51,10 @@
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_question_three.xml" value="0.1796875" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_question_two.xml" value="0.1796875" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_quiz.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_quiz_danau_toba.xml" value="0.1875" />
+        <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_rating_antariksa.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_screen_essay.xml" value="0.22" />
+        <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_screen_essay_antariksa.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_screen_masuk_profil.xml" value="0.22" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_screen_profil.xml" value="0.22" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/GemaGroup8/app/src/main/res/layout/activity_screen_profil_saya.xml" value="0.22" />

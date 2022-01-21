@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PengetahuanFragment"
+    tools:context=".Home.PengetahuanFragment"
     android:orientation="vertical"
     android:background="@drawable/background_all"
     android:layout_marginRight="16dp"
@@ -25,7 +25,8 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="80dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -36,25 +37,71 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tahukah Kamu ?"
-                    android:textSize="15sp"
+                    android:textSize="16sp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/poppinsregular"
-                    android:textColor="@color/black"/>
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#232D37"/>
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="140dp"
+                    android:layout_height="200dp"
                     android:background="@drawable/pengetahuan_gambar"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Bumi"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#232D37"/>
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="-1dp"
+                    android:textColor="#17191C"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:text="@string/tentang_bumi"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Tahukah Kamu ?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#17191C"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/roket_gambar"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Roket"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#232D37"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="3dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#17191C"
+                    android:fontFamily="@font/poppins_light"
                     android:textSize="14sp"
                     android:textStyle="normal"
-                    android:text="@string/konten_4"
+                    android:text="@string/tentang_roket"
                     android:textAlignment="textStart"/>
 
                 <TextView
@@ -62,26 +109,183 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:text="Tahukah Kamu ?"
-                    android:textSize="15sp"
+                    android:textSize="16sp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/poppinsregular"
-                    android:textColor="@color/black"/>
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#17191C"/>
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:background="@drawable/roket_gambar"/>
+                    android:layout_height="200dp"
+                    android:background="@drawable/profesi"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Profesi"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#232D37"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="8dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/poppinsregular"
+                    android:textColor="#17191C"
+                    android:fontFamily="@font/poppins_light"
                     android:textSize="14sp"
                     android:textStyle="normal"
-                    android:text="@string/konten_5"
+                    android:text="@string/tentang_profesi"
                     android:textAlignment="textStart"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Tahukah Kamu ?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#17191C"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/fish"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Hewan"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#232D37"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#17191C"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:text="@string/tentang_hewan"
+                    android:textAlignment="textStart"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Tahukah Kamu ?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#17191C"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/matahari"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Matahari"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#232D37"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#17191C"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:text="@string/tentang_matahari"
+                    android:textAlignment="textStart"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Tahukah Kamu ?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#17191C"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/astronot"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Astronot"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#232D37"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#17191C"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:text="@string/tentang_astronot"
+                    android:textAlignment="textStart"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Tahukah Kamu ?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#17191C"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bird"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Hewan"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#232D37"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#17191C"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:text="@string/tentang_hewan2"
+                    android:textAlignment="textStart"/>
+
+
+
 
             </LinearLayout>
 

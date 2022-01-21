@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_all"
+    tools:context="Quiz.EssayAntariksa">
+
+    <TextView
+        android:id="@+id/gmn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Bagaimana Menurutmu Ceritanya ?"
+        android:textColor="#232D37"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/buku"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/screen_essay" />
+
+    <TextView
+        android:layout_below="@id/buku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Masukkan pendapatmu"/>
+
+    <EditText
+        android:id="@+id/pendapat"
+        android:layout_width="320dp"
+        android:layout_height="185dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/pendapat"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:inputType="textPersonName"
+        android:textSize="14dp"
+        android:textColor="#FFFEFE"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/color_button_2"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Simpan"
+        android:textColor="#FFFEFE"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/coolicon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="670dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="4 dari 4"
+        android:textColor="#232D37"
+        android:textSize="18dp" />
+
+</RelativeLayout>

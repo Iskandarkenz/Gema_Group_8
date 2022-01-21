@@ -3,6 +3,7 @@ package com.example.gema;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -10,6 +11,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.gema.Profil.MainProfilActivity;
+import com.example.gema.Profil.Profil;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -42,6 +45,14 @@ public class LoginActivity extends AppCompatActivity {
 
 
         // Fungsi Tombol
+
+        btnlogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Profil.class);
+                startActivity(intent);
+            }
+        });
 
         btnregister.setOnClickListener(v -> {
             startActivity(new Intent(getApplicationContext(), RegisterActivity.class));
@@ -76,7 +87,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
         private void reload(){
-            startActivity(new Intent(getApplicationContext(), com.example.gema.MainProfilActivity.class));
+            startActivity(new Intent(getApplicationContext(), MainProfilActivity.class));
 
         }
         @Override
