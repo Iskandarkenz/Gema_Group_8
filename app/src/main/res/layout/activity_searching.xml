@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SearchingBook"
+    tools:context=".Profil.Grid.SearchingBook"
     android:orientation="vertical"
     android:layout_marginRight="16dp"
     android:layout_marginLeft="16dp">
@@ -29,17 +29,21 @@
         android:background="@drawable/searchicon" />
 
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="379dp"
+        android:id="@+id/ubah_nama"
+        android:layout_width="350dp"
         android:layout_height="55dp"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="10dp"
+        android:layout_marginLeft="50dp"
         android:layout_marginTop="65dp"
         android:background="@drawable/kolomsearch"
-        android:hint="Cari buku mu disini"
-        android:paddingLeft="46dp"
+        android:fontFamily="@font/poppinsregular"
+        android:hint="Ubah Nama"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
         android:paddingBottom="5dp"
         android:textSize="15dp" />
+
 
     <HorizontalScrollView
         android:layout_width="match_parent"

@@ -11,31 +11,48 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.gema.MyLibrary;
+import com.example.gema.Main.MainActivity;
+import com.example.gema.Main.RegisterActivity;
+import com.example.gema.Profil.Grid.MyLibrary;
 import com.example.gema.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class BuatProfil extends AppCompatActivity {
 
-    Button button1;
+    Button button1, btn_skip;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buat_profil);
 
-        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(BuatProfil.this);
-        String profileName = pref.getString("PROFILE_NAME", "");
-        if(profileName.length() > 0) {
-            startActivity(new Intent(getApplicationContext(), Profil.class));
+        /*SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(BuatProfil.this);
+
+            String profileName = pref.getString("PROFILE_NAME", "");
+            if(profileName.length() > 0) {
+
         }
+            String profileAge = pref.getString("PROFILE_AGE", "");
+            if(profileAge.length() > 0) {*/
+
+            /*startActivity(new Intent(getApplicationContext(), Profil.class));
+        }*/
 
        Button button1 = (Button) findViewById(R.id.button1);
+       Button btn_skip = (Button) findViewById(R.id.btn_skip);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ScreenMasukProfil.class);
+                Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_skip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Profil.class);
                 startActivity(intent);
             }
         });
@@ -53,7 +70,7 @@ public class BuatProfil extends AppCompatActivity {
             @Override public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
                     case R.id.home:
-                        startActivity(new Intent(getApplicationContext(), com.example.gema.MainActivity.class));
+                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         overridePendingTransition(0, 0);
                         return true;
 

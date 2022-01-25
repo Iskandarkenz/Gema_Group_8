@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import com.example.gema.R;
 
-import Quiz.EssayAntariksa;
+import com.example.gema.Quiz.EssayQuiz;
 
 public class ScreenMasukProfil extends AppCompatActivity {
 
@@ -34,7 +34,7 @@ public class ScreenMasukProfil extends AppCompatActivity {
         btn_play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), EssayAntariksa.class);
+                Intent intent = new Intent(getApplicationContext(), EssayQuiz.class);
                 startActivity(intent);
             }
         });

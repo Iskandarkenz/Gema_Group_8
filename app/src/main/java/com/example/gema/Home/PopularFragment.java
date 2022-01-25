@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.gema.MostPopular;
-import com.example.gema.MostRead;
+import com.example.gema.Profil.Grid.MostPopular;
+import com.example.gema.Profil.Grid.MostRead;
 import com.example.gema.R;
 
 public class PopularFragment extends Fragment {

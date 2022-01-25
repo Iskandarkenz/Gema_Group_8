@@ -1,14 +1,17 @@
 package com.example.gema.Home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.example.gema.Adapter.FragmentAdapter;
+import com.example.gema.Deskripsi.DeskripsiAntariksa;
 import com.example.gema.R;
 import com.google.android.material.tabs.TabLayout;
 
@@ -17,6 +20,7 @@ public class SemuaBukuFragment extends Fragment {
     TabLayout tabLayout;
     ViewPager2 pager2;
     FragmentAdapter adapter;
+    public CardView buku;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -48,6 +52,7 @@ public class SemuaBukuFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
         /*tabLayout = getView().findViewById(R.id.tab_layout);
         pager2 = getView().findViewById(R.id.view_pager2);
 
@@ -92,5 +97,21 @@ public class SemuaBukuFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_semua_buku, container, false);
+
+
+           /* }findViewById(R.id.danau_toba).setOnClickListener(this);
+
+            // function tombol
+        }
+        @Override
+        public void onClick(View v) {
+            Intent i;
+
+            switch (v.getId()) {
+                case R.id.antariksa:
+                    i = new Intent(this, SemuaBukuFragment.class);
+                    startActivity(i);
+                    break;
+            }*/
     }
 }

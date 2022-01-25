@@ -10,22 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="Quiz.EssayDanauToba"
-            android:exported="true" />
-        <activity
-            android:name="Quiz.QuizDanauToba"
-            android:exported="true" />
-        <activity
-            android:name="Quiz.PlayquizDanauToba"
-            android:exported="true" />
-        <activity
-            android:name=".BacaBukuDanauToba"
-            android:exported="true" />
-        <activity
-            android:name=".DeskripsiDanauToba"
-            android:exported="true" />
-        <activity
-            android:name=".SplashScreen"
+            android:name=".Main.SplashScreen"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
@@ -35,31 +20,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Main.MainActivity"
             android:exported="true" />
         <activity
             android:name=".Profil.BuatProfil"
             android:exported="true" />
         <activity
-            android:name=".SearchingBook"
+            android:name=".Profil.Grid.SearchingBook"
             android:exported="true" />
         <activity
-            android:name=".MostPopular"
+            android:name=".Profil.Grid.MostPopular"
             android:exported="true" />
         <activity
-            android:name=".MostRead"
+            android:name=".Profil.Grid.MostRead"
             android:exported="true" />
         <activity
-            android:name=".MyLibrary"
+            android:name=".Profil.Grid.MyLibrary"
             android:exported="true" />
         <activity
             android:name=".Profil.ScreenMasukProfil"
             android:exported="true" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".Main.RegisterActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".Main.LoginActivity"
             android:exported="true" />
         <activity
             android:name=".Profil.Profil"
@@ -74,25 +59,49 @@
             android:name=".MenuProfil.ScreenTentangGema"
             android:exported="true" />
         <activity
-            android:name=".DeskripsiAntariksa"
+            android:name=".Deskripsi.DeskripsiAntariksa"
             android:exported="true" />
         <activity
-            android:name=".BacaBukuAntariksa"
+            android:name=".BacaBuku.BacaBukuAntariksa"
             android:exported="true" />
         <activity
-            android:name="Quiz.PlayquizAntariksa"
+            android:name=".Quiz.PlayQuizAntariksa"
             android:exported="true" />
         <activity
-            android:name="Quiz.QuizAntariksa"
+            android:name=".Quiz.QuizAntariksa"
             android:exported="true" />
         <activity
-            android:name="Quiz.EssayAntariksa"
+            android:name=".Quiz.QuizCeritaBinatangAsyik"
             android:exported="true" />
         <activity
-            android:name="Quiz.SelesaiQuizAntariksa"
+            android:name=".Quiz.PlayQuizCeritaBinatangAsyik"
             android:exported="true" />
         <activity
-            android:name=".Quiz.ScreenRating"
+            android:name=".BacaBuku.BacaBukuCeritaBinatangAsyik"
+            android:exported="true" />
+        <activity
+            android:name=".Deskripsi.DeskripsiCeritaBinatangAsyik"
+            android:exported="true" />
+        <activity
+            android:name=".Quiz.QuizDanauToba"
+            android:exported="true" />
+        <activity
+            android:name=".Quiz.PlayQuizDanauToba"
+            android:exported="true" />
+        <activity
+            android:name=".BacaBuku.BacaBukuDanauToba"
+            android:exported="true" />
+        <activity
+            android:name=".Deskripsi.DeskripsiDanauToba"
+            android:exported="true" />
+        <activity
+            android:name=".Quiz.EssayQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".Quiz.SelesaiQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".Quiz.Rating"
             android:exported="true" />
 
         <meta-data
